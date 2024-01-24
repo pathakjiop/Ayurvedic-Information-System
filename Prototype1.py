@@ -100,7 +100,7 @@ def display_remedies_for_ailment():
 # Create the main window
 
 root = tk.Tk()
-root.title("Ayurvedic Medicine Database")
+root.title("Ayurvedic Information System") 
 
 # Maximize the window
 
@@ -116,7 +116,7 @@ style.configure('TEntry', font=('Helvetica', 12))
 
 # Create a heading label and center it at the top
 
-heading_label = ttk.Label(root ,text="Ayurvedic Medicine Database", style='Heading.TLabel')
+heading_label = ttk.Label(root ,text="Ayurvedic Information System", style='Heading.TLabel')
 
 heading_label.grid(column=0, row=0, columnspan=3, sticky=tk.EW)
 
