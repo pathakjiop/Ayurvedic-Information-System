@@ -142,7 +142,7 @@ herb_name_entry.grid(column=1, row=0)
 find_herb_button = ttk.Button(frame1, text="Find Herb Info", command=display_herb_info, style='TButton')
 find_herb_button.grid(column=2, row=0)
 
-
+#Result lable
 result_label = ttk.Label(root, text="", wraplength=400, style='TLabel')
 result_label.grid(column=0, row=3, sticky=(tk.W, tk.E))
 
