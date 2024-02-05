@@ -15,6 +15,7 @@ def get_herb_details():
     data = {
       "contents": [{
         "parts":[{
+          # herbs prompt
           "text": f"{data.get("herb_name")} herb its properties in JSON. Give columns as Herb Name, Benefits, Properties, Precautions"}]}]}
     
     response = requests.post(url, json=data)
