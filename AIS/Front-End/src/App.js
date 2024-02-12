@@ -4,7 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import SearchForm from './components/SearchForm';
 import HerbDetails from './components/HerbDetails';
 import { SpinnerCircular } from 'spinners-react';
+import SpeechRecognitionComponent from './components/SpeechRecognitionComponent';
 import './App.css';
+import RemedyDetails from './components/RemedyDetails';
 import { Nav, Tab, TabContainer, TabContent } from 'react-bootstrap';
 
 function App() {
@@ -32,7 +34,9 @@ function App() {
         <Nav.Item>
           <Nav.Link eventKey="link-1">Herb Details</Nav.Link>
         </Nav.Item>
-          
+        <Nav.Item>
+          <Nav.Link eventKey="link-2">AI Doctor</Nav.Link>
+        </Nav.Item>
       </Nav>
       
       <Tab.Content>
@@ -43,6 +47,12 @@ function App() {
               <SearchForm setHerbData={handleSetHerbData} setLoading={setLoading} />
               {loading && <SpinnerCircular color='#000000'/>}
               {herbData && <HerbDetails herbData={herbData} />}
+            </Tab.Pane>
+            <Tab.Pane eventKey="link-2">
+            <h2>Consult To Our AI Doctor</h2>
+            <SpeechRecognitionComponent setRemedyData={handleSetRemedyData} setLoading={setLoading} />
+            {loading && <SpinnerCircular color='#000000'/>}
+            {remedyData && <RemedyDetails remedyData={remedyData} />}
             </Tab.Pane>
           </Tab.Content>
         </Tab.Container>
