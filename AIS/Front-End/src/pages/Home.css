@@ -1,0 +1,36 @@
+/* Home.css */
+.dhiwise-navigation {
+    padding: 20px;
+    text-align: center; /* Centering text for a better look on all devices */
+  }
+  
+  .headline {
+    max-width: 600px; /* Limiting width for readability */
+    margin: auto; /* Centering */
+    padding: 20px 0; /* Adding some space around the text */
+  }
+  
+  ul {
+    list-style-type: none; /* Removing default list styling */
+    padding: 0; /* Removing default padding */
+  }
+  
+  li {
+    margin: 10px 0; /* Adding some space between list items */
+  }
+  
+  @media (max-width: 768px) {
+    .headline {
+      padding: 10px; /* Less padding on smaller screens */
+      font-size: 14px; /* Smaller font size for better readability */
+    }
+  
+    ul {
+      padding: 0;
+    }
+  
+    li {
+      margin: 5px 0; /* Smaller margins for compact layout */
+    }
+  }
+  

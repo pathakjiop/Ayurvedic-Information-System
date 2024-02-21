@@ -31,10 +31,21 @@
     background-color: #c5372d;
   }
 
-.textAreaContainer{
+  .textAreaContainer {
     text-align: center;
-    width: 500px;
-    height: 50px;
+    width: 600px; /* Makes the width adapt to the container's parent width */
+    max-width: 500px; /* Ensures the container does not exceed 500px */
+    height: 50px; /* Fixed height, but you might want to make it flexible as well */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    padding: 0 10px; /* Optional: Adds some padding inside the container */
+}
+
+/* Example of a media query for smaller screens */
+@media (max-width: 600px) {
+    .textAreaContainer {
+        height: auto; /* Makes the height adapt to its content */
+        padding: 10px; /* Increases padding for better readability on small devices */
+    }
 }
 
 .searchButton {
@@ -55,3 +66,16 @@
   .searchButton:hover {
     background-color: #45a049; /* Darker Green */
   }
+  /* styles.module.css */
+.voiceSearchButton {
+  
+  background-color: #d4a373; /* Default background color */
+  color: white; /* Default text color */
+  /* Add other styling properties as needed */
+}
+
+.voiceSearchButtonListening {
+  background-color: #ccd5ae; /* Background color when listening */
+  color: white; /* Text color when listening */
+  /* Add other styling properties as needed */
+}

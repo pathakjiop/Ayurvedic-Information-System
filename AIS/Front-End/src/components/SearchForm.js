@@ -20,16 +20,34 @@ const SearchForm = ({ setHerbData, setLoading }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px' }}>
       <input
+        style={{
+          textAlign: "center",
+          padding: '10px',
+          fontSize: '16px',
+          border: '2px solid #ccc',
+          borderRadius: '5px',
+          width: '80%',
+          maxWidth: '400px' // Ensures the input field is not too wide on larger screens
+        }}
+        
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Enter herb name"
       />
-      <button type="submit">Search</button>
+      <button type="submit" style={{
+        padding: '10px 20px',
+        fontSize: '16px',
+        border: 'none',
+        borderRadius: '5px',
+        cursor: 'pointer',
+        backgroundColor: '#4CAF50',
+        color: 'white'
+      }}>Search</button>
     </form>
   );
-};
+    }
 
 export default SearchForm;

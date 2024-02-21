@@ -7,7 +7,7 @@ const HerbDetails = ({ herbData }) => {
     <div className={styles.herbDetails}>
       <h2>Herb Name: {herbData['Herb Name']}</h2>
       <h3>Benefits:</h3>
-      <ul>
+     <ul>
         {herbData.Benefits.map((benefit, index) => (
           <li key={index}>{benefit}</li>
         ))}

@@ -75,12 +75,13 @@ const SpeechRecognitionComponent = ({setRemedyData, setLoading}) => {
   return (
     <>
     <div className={styles.speechRecognitionContainer}>
-         <button
+        <button
         onClick={toggleListen}
         className={`${styles.voiceSearchButton} ${isListening ? styles.voiceSearchButtonListening : ''}`}
-        >
+      >
         {isListening ? 'Stop Listening' : 'Start Listening'}
       </button>
+
       </div>
       <div>
       <textarea

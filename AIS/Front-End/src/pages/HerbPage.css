@@ -1,0 +1,17 @@
+/* HerbPage.css */
+.herbPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FEFAE0;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .herbPageContainer {
+      padding: 10px;
+    }
+  
+    /* Additional responsive adjustments as needed */
+  }
+  
