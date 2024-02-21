@@ -21,7 +21,9 @@ First, clone the project repository to your local machine using Git.
 
 ```bash
 git clone https://github.com/pathakjiop/Ayurvedic-Information-System.git
-cd Ayurvedic-Information-System```
+cd Ayurvedic-Information-System
+```
+
 
 ### 2. Set Up Environment Variables
 
