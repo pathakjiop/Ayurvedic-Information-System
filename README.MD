@@ -30,7 +30,7 @@ cd Ayurvedic-Information-System
  1. Make a .env file in the Back-End.
 
  2. And add the gemini api key.
-      1. to get gemini api key go to https://aistudio.google.com/app/apikey
+      1. To get gemini api key go to https://aistudio.google.com/app/apikey
       2. Click on Create API key.
       3. Go to search box and select the option ( My First Project ).
       4. Now, click on ( Create API key on existing project ).
@@ -51,7 +51,7 @@ Your gemini api key is ready to use.
 ```bash
 npm install 
 ```
-after every thing installed you are ready to use our project.
+After every thing installed you are ready to use our project.
 
 ## How To Start The Project
 
@@ -59,7 +59,7 @@ after every thing installed you are ready to use our project.
 
 1.  Go to Back_End in the file explorer and right click in the file explorer and click on the option Open in Terminal.
 
-2. Write the code mention below
+2. Write the code mention below.
 
 ```bash
 python run.py 
@@ -71,7 +71,7 @@ python run.py
 
 1.  Go to Front_End in the file explorer and right click in the file explorer and click on the option Open in Terminal.
 
-2. Write the code mention below
+2. Write the code mention below.
 
 ```bash
 npm start
