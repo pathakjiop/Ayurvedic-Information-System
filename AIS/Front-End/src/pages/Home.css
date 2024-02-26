@@ -16,7 +16,7 @@
   }
   
   li {
-    margin: 10px 0; /* Adding some space between list items */
+    margin: 10px ; /* Adding some space between list items */
   }
   
   @media (max-width: 768px) {

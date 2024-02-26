@@ -15,7 +15,7 @@ def get_herb_details():
     data = {
       "contents": [{
         "parts":[{
-          "text": f"{data.get("herb_name")} herb its properties in JSON. Give columns as Herb Name, Benefits, Properties, Precautions"}]}]}
+          "text": f"{data.get("herb_name")} herb its properties in JSON. Give columns as Herb Name, Benefits, Properties, Precautions,and a link to the herb photo"}]}]}
     
     response = requests.post(url, json=data)
 

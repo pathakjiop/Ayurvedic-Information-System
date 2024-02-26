@@ -1,4 +1,5 @@
 .herbDetails {
-    text-align: left !important;
-}
-
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange children vertically */
+    align-items: flex-start; /* Align children to the start (left) of the container */
+  }

@@ -7,6 +7,7 @@ import { SpinnerCircular } from 'spinners-react';
 import './HerbPage.css'; 
 
 const HerbPage = () => {
+  
     const [herbData, setHerbData] = useState(null);
     const [loading, setLoading] = useState(false);
  
@@ -16,8 +17,7 @@ const HerbPage = () => {
         flexDirection: 'column',
         alignItems: 'center',
         backgroundColor: '#FEFAE0', // Apply the background color here
-        minHeight: '100vh',
-         // Make sure it covers the full view height
+        minHeight: '1000px',// Make sure it covers the full view height
       }}>
         <h2 style={{ marginTop: '50px' }} >Herb Information</h2>
             <SearchForm setHerbData={setHerbData} setLoading={setLoading} />
