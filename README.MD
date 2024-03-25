@@ -1,6 +1,6 @@
 # Ayurvedic Information System
 
-https://drive.google.com/open?id=1fdCFguwVwU7-tJyaMzClcI-MG6-pVovi&usp=drive_copy
+!(https://drive.google.com/open?id=1fdCFguwVwU7-tJyaMzClcI-MG6-pVovi&usp=drive_copy)
 
 The Ayurvedic Information System is a comprehensive platform designed to provide users with detailed information about Ayurvedic practices, treatments, herbs, and wellness advice. This system is built using a ReactJS frontend and a Python backend to deliver a seamless and interactive user experience.
 
