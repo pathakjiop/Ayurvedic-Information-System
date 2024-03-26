@@ -107,4 +107,6 @@ We're here to help!
 
 Your contributions are welcome! If you'd like to improve the Ayurvedic Information System or suggest new features, please see our `CONTRIBUTING.md` for guidelines on how to submit contributions.
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](License.md) file for details.
 
