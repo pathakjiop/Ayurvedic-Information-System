@@ -69,7 +69,7 @@ python run.py
 
 3. The Backend is now started.
 
-### Starting Backend
+### Starting Frontend
 
 1.  Go to Front_End in the file explorer and right click in the file explorer and click on the option Open in Terminal.
 
