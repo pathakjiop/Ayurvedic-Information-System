@@ -7,7 +7,7 @@ The Ayurvedic Information System is a comprehensive platform designed to provide
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
-- ReactJS
+
 - Node.js (v12.x or later)
 - npm (v6.x or later) or yarn (v1.22.x or later)
 - Python (v3.8 or later)
